@@ -1,0 +1,112 @@
+
+
+footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* background-color: rgba(97, 54, 54, 0.164); */
+    color: rgba(64, 62, 92, 0.438);
+    justify-content: space-between;
+    padding: 12px;
+    gap: 12px;
+    flex-wrap: wrap;
+    border-radius: 12px 12px 12px 12px ;
+}
+footer div a{ 
+  padding: 12px;
+}
+footer div{ 
+display: flex;
+width: 100%;
+flex-direction: row;
+align-items: flex-start;
+justify-content: left;
+
+}
+footer div ul{ 
+  flex-grow: 1; 
+   align-items: flex-start;
+  justify-content: center;
+  margin-left: 3rem;
+  align-self: center; 
+  flex-basis: 200px;
+ justify-self: center;
+  height: auto;
+  /* min-height: auto; */
+  display: flex;
+  flex-direction: row;
+}
+footer img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.footer-cobn{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+.footer-cobn button a:hover{
+
+background-color: transparent;
+}
+.footer-cobn button a:hover{
+    color: white;
+}
+.footer-cobn button a{
+color: brown;
+font-weight: bolder;
+}
+.footer-cobn button:hover{
+   background-color: transparent;
+   border: 2px solid white;
+}
+.footer-cobn button{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 9px;
+    margin: 12px;
+    border: 2px solid rgba(255, 0, 0, 0);
+    
+}
+
+.pagination{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    border-radius: 44px;
+
+}
+.pagination span{
+    display: flex;
+    gap: 23px;
+    width: auto;
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.267);
+padding: 22px;
+border-radius: 33px;
+    align-self: center;
+    justify-self: center;
+}
+.pagination span i{
+    font-size: larger;
+}
+.pagination span i:first-child{
+color: wheat;
+}
+
+.pagin-active{
+    background-color: red;
+}
+
+.mas > *{
+  display: flex;
+  flex-wrap: wrap;
+}
